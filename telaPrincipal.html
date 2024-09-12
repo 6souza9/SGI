@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGI</title>
+    <link rel="shortcut icon" href="./img/Logo - SGI.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/headerTela.css">
+    <link rel="stylesheet" href="./style/mainTela.css">
+    <link rel="stylesheet" href="./style/mainAddProdutoEstoque.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="tela_Principal">
+    <header class="cabecario_telaprincipal">
+        <h1 class="cabecario_telaprincipal_titulo">Gestão de Inventário</h1>
+        <div class="grupo_de_botao">
+            <button id="adicionar_produto">Adicionar Produto</button>
+            <button id="inventario">Estoque</button>
+        </div>
+    </header>
+
+    <main id="conteudo_telaprincipal">
+        <section class="sumario">
+            <div class="cartao">
+                <h3 class="titulo_cartao">Estoque Total</h3>
+                <p id="quantidade_do_estoque">0 Itens</p>
+            </div>
+            <div class="cartao">
+                <h3 class="titulo_cartao">Valor Total do Estoque</h3>
+                <p id="valor_total_estoque">0 $</p>
+            </div>
+        </section>
+        <section>
+            <h1 class="titulo_alarme">!!! Alarme !!!</h1>
+            <div id="alarme" class="secao_alarme"></div>
+        </section>
+
+        <section class="kpi">
+            <h2 class="kpi_t">Indicadores de Performance (KPIs)</h2>
+            <div class="kpi_divisao">
+                <div class="kpi_cartao">
+                    <h3 class="kpi_titulo">E-Safe Centro Logístico de Eletrônicos</h3>
+                    <div class="kpi_div">
+                        <p id="valor_e_safe" class="estilo_kpi">Valor Total do Armazém: 0 $</p>
+                        <p id="estoque_e_safe" class="estilo_kpi">Estoque Total do Armazém: 0 Itens</p>
+                        <p id="taxa_ocupacao_e_safe" class="estilo_kpi">Taxa de Ocupação do Armazém: <span class="taxa_ocupacao_valor">0%</span></p>
+                        <p id="reposicao_e_safe" class="estilo_kpi">Necessidade de Reposição: 0 Itens</p>
+                    </div>
+                </div>
+                <div class="kpi_cartao">
+                    <h3 class="kpi_titulo">HandyStore Centro de Ferramentas</h3>
+                    <div class="kpi_div">
+                        <p id="valor_handy_store" class="estilo_kpi">Valor Total do Armazém: 0 $</p>
+                        <p id="estoque_handy_store" class="estilo_kpi">Estoque Total do Armazém: 0 Itens</p>
+                        <p id="taxa_ocupacao_handy_store" class="estilo_kpi">Taxa de Ocupação do Armazém: <span class="taxa_ocupacao_valor">0%</span></p>
+                        <p id="reposicao_handy_store" class="estilo_kpi">Necessidade de Reposição: 0 Itens</p>
+                    </div>
+                </div>
+                <div class="kpi_cartao">
+                    <h3 class="kpi_titulo">EquipStore Centro de Máquinas Pesadas</h3>
+                    <div class="kpi_div">
+                        <p id="valor_equip_store" class="estilo_kpi">Valor Total do Armazém: 0 $</p>
+                        <p id="estoque_equip_store" class="estilo_kpi">Estoque Total do Armazém: 0 Itens</p>
+                        <p id="taxa_ocupacao_equip_store" class="estilo_kpi">Taxa de Ocupação do Armazém: <span class="taxa_ocupacao_valor">0%</span></p>
+                        <p id="reposicao_equip_store" class="estilo_kpi">Necessidade de Reposição: 0 Itens</p>
+                    </div>
+                </div>
+                <div class="kpi_cartao">
+                    <h3 class="kpi_titulo">MaterialHub Centro de Materiais</h3>
+                    <div class="kpi_div">
+                        <p id="valor_material_hub" class="estilo_kpi">Valor Total do Armazém: 0 $</p>
+                        <p id="estoque_material_hub" class="estilo_kpi">Estoque Total do Armazém: 0 Itens</p>
+                        <p id="taxa_ocupacao_material_hub" class="estilo_kpi">Taxa de Ocupação do Armazém: <span class="taxa_ocupacao_valor">0%</span></p>
+                        <p id="reposicao_material_hub" class="estilo_kpi">Necessidade de Reposição: 0 Itens</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/mudarDeTela.js"></script>
+    <script src="./js/mainTela.js"></script>
+</body>
+</html>

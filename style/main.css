@@ -1,0 +1,83 @@
+.conteudo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+
+.formulario_login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    background: var(--cor-cinza-escuro);
+    padding: 1.5rem;
+    width: 40%;
+    border-radius: 5px;
+    border-right: 0.5rem solid var(--cor-da-fonte);
+    border-left: 0.5rem solid var(--cor-da-fonte);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.9);   
+}
+
+.formulario_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login_password {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.user {
+    background-image: url(../img/Icone\ -\ Username.png);
+    background-size: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 11.5rem center;
+}
+
+.senha {
+    background-image: url(../img/Icone\ -\ Senha.png);
+    background-size: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 11.5rem center;
+}
+
+.username_password {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.inpunt_login_password {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    width: 10rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+}
+
+.botao_form {
+    color: var(--cor-cinza-escuro);
+    font-size: 1rem;
+    font-weight: 600;
+    background: var(--cor-cinza-medio);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border: none;
+}
+
+.botao_form:hover {
+    background: var(--cor-da-fonte);
+    color: var(--cor-cinza-escuro);
+    transition: 0.5s;
+}
+
+.logo {
+    width: 60%;
+    border-left: 0.5rem solid var(--cor-da-fonte);
+}

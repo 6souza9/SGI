@@ -1,0 +1,29 @@
+.cabecario_telaprincipal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-cinza-escuro);
+    padding: 0.5rem 1.5rem 0.5rem 2.5rem;
+    border-bottom: 0.5rem solid var(--cor-cinza-medio);
+}
+
+.cabecario_telaprincipal_titulo {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.grupo_de_botao button {
+    background-color: var(--cor-da-fonte);
+    color: var(--cor-cinza-escuro);
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grupo_de_botao button:hover {
+    color: var(--cor-da-fonte);
+    background-color: var(--cor-cinza-medio);
+}

@@ -1,0 +1,121 @@
+#add_produto {
+    display: flex;
+    margin: auto;
+}
+
+
+.formulario_secao {
+    background-color: var(--cor-cinza-escuro-transparente);
+    padding: 2rem;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 0.5rem solid var(--cor-da-fonte);
+    border-right: 0.5rem solid var(--cor-da-fonte);
+    border-radius: 5px;
+    margin: 5rem auto;
+}
+
+
+.formulario_secao_titulo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.formacao_grupo {
+    margin-bottom: 1rem;
+}
+
+.formacao_grupo label {
+    font-size: 1.25rem; 
+    display: block;
+    margin-bottom: 0.5rem; 
+}
+
+.formacao_grupo input {
+    font-size: 1.2rem;
+    width: 97%;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#categorio_produto, #local_produto {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#discricao_produto {
+    width: 100%;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+#local_produto {
+    pointer-events: none;
+    appearance: none;
+}
+
+
+/* Estilo Do Estoque */
+
+#tabela_inventario tbody td{
+    background-color: var(--cor-cinza-escuro-transparente);
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 0.1rem solid var(--cor-da-fonte);
+    border-right: 0.25rem solid var(--cor-da-fonte) ;
+    padding: 1rem;
+}
+
+.secao_inventario {
+    display: flex;
+    flex-direction: column;
+}
+
+.secao_inventario_titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: var(--cor-cinza-escuro);
+    padding: 1rem;
+    border-top: 0.5rem solid var(--cor-da-fonte);
+    border-radius: 5px;
+    width: 20%;
+    margin: 5rem auto 1rem auto;
+}
+
+#tabela_inventario th {
+    text-align: center;
+    background-color: var(--cor-cinza-escuro);
+    padding: 1rem;
+    border-right: 0.25rem solid var(--cor-da-fonte);
+    border-bottom: 0.25rem solid var(--cor-da-fonte);
+}
+
+table {
+    width: 100%;
+}
+
+button {
+    font-weight: 700;
+    background-color: var(--cor-da-fonte);
+    color: var(--cor-cinza-escuro);
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: var(--cor-da-fonte);
+    background-color: var(--cor-cinza-medio);
+    transition: 0.5s;
+}
+
+.teste {
+    background-color: var(--cor-cinza-escuro-transparente);
+}

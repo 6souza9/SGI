@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(./reset.css);
+
+:root {
+    --fonte-principal: 'Roboto';
+    --cor-da-fonte: #ECEFF1;
+    --cor-cinza-escuro: #37474F;
+    --cor-cinza-escuro-transparente: rgba(55, 71, 79, 0.96);
+    --cor-cinza-medio: #B0BEC5;
+}
+
+body {
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte-principal);
+    background-image: url(../img/Backgraund.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}

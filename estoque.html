@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGI</title>
+    <link rel="shortcut icon" href="./img/Logo - SGI.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/headerTela.css">
+    <link rel="stylesheet" href="./style/mainTela.css">
+    <link rel="stylesheet" href="./style/mainAddProdutoEstoque.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="tela_Principal">
+    <header class="cabecario_telaprincipal">
+        <h1 class="cabecario_telaprincipal_titulo">Gestão de Inventário</h1>
+        <div class="grupo_de_botao">
+            <button id="adicionar_produto">Adicionar Produto</button>
+            <button id="inventario">Estoque</button>
+        </div>
+    </header>
+    
+    <main>
+        <section id="secao_inventario" class="secao_inventario">
+            <h2 class="secao_inventario_titulo">Lista de Produtos em Estoque</h2>
+            <table id="tabela_inventario">
+                <thead>
+                    <tr>
+                        <th>Selecionar</th>
+                        <th>Nome</th>
+                        <th>Categoria</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Fornecedor</th>
+                        <th>Localização</th>
+                        <th>Data de Validade</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Os produtos serão adicionados aqui via JavaScript -->
+                </tbody>
+            </table>
+            <div class="teste">
+                <button type="button" id="botao_voltar">Voltar para a Tela Inicial</button>
+                <button type="button" id="botao_excluir">Excluir</button>
+            </div>
+        </section>
+    </main>
+    <script src="./js/mudarDeTela.js"></script>
+    <script src="./js/estoque.js"></script>
+</body>
+</html>

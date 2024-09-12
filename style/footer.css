@@ -1,0 +1,11 @@
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape_titulo {
+    text-align: center;
+    padding: 1rem;
+    background: var(--cor-cinza-escuro);
+}
